@@ -2,8 +2,9 @@
 
 namespace Asandului_Oana_Maria_Lab1.Controllers
 {
-    public class HomeController1 : Controller
+    public class Lab1Controller : Controller
     {
+        
         public string Index()
         {
             return "Bun venit";
@@ -14,10 +15,10 @@ namespace Asandului_Oana_Maria_Lab1.Controllers
             return "Salut!";
         }
 
-        public string Index(string nume, int varsta)
+        public string Index1(string nume, int varsta)
         {
 
-            return "Salut " + nume + ", ai varsta de " + varsta + " ani.";
+            return $"Salut {nume}, ai varsta de {varsta} ani.";
         }
     }
 }
